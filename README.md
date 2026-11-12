@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-K-Bag AB is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://kbag.se
+K-Bag AB provides bulk delivery of construction materials such as soil, gravel, sand, and demolition waste in 1 m³ bags across Stockholm. Customers can order bags, schedule waste pickup, and access pricing via an online portal. The service aims to reduce transport costs by 30‑70% and supports B2B clients with fast express delivery and API access for automation.
+
+**Areas:** Company · Construction · Materials · Waste-Pickup · Sweden
+
+## K-Bag AB on APIs.io
+
+Everything profiled for K-Bag AB is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kbag-se/](https://apis.io/providers/kbag-se/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [K-Bag Transport Calculator API](https://apis.io/apis/kbag-se/k-bag-transport-calculator-api/) — API for calculating transport prices for construction material delivery and waste pickup in Stockholm County.
+- [K-Bag AB Calculate Delivery Price API](https://apis.io/apis/kbag-se/kbag-se-calculate-delivery-price-api/) — The Calculate Delivery Price API from K-Bag AB — 1 operation(s) for calculate delivery price.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [K-Bag AB Agentic Access](https://apis.io/agentic-access/kbag-se/kbag-se-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kbag Se Context](https://apis.io/jsonld/kbag-se/kbag-se-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [K-Bag AB API Rules](https://apis.io/rules/kbag-se/kbag-se-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [K-Bag AB Domain Security](https://apis.io/security/kbag-se/kbag-se-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kbag.se)
+- [Documentation](https://kbag.se/.well-known/openapi.yaml)
+- [Getting started](https://kbag.se/mcp)
+- [API reference](https://kbag.se/.well-known/openapi.yaml)
+- [Pricing](https://kbag.se/sa-fungerar-priset)
+- [Sign up](https://kbag.se/auth)
+- [Support](https://kbag.se/kontakt)
+- [Blog](https://kbag.se/blog)
+- [Terms of service](https://kbag.se/villkor)
+- [Privacy policy](https://kbag.se/returpolicy)
+
+## API Evangelist rating
+
+**Kin Score 44.9** — developing · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 47.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 38.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | self |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kbag-se/](https://apis.io/providers/kbag-se/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for K-Bag AB: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kbag-se/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
