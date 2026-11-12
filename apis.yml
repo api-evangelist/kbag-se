@@ -1,0 +1,30 @@
+aid: kbag-se
+name: K-Bag AB
+description: 'K-Bag AB is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/kbag-se/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-12'
+modified: '2026-11-12'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://kbag.se
+- type: Documentation
+  url: https://kbag.se/.well-known/openapi.yaml
+x-submission-notes: Big-bag material delivery and construction waste pickup, Stockholm; OpenAPI, MCP server
+  card, UCP profile, agent card
+x-submission-probe: root 200 (SPA, real K-Bag title), invented path 200 same body (SPA catch-all, not
+  parked); /.well-known/openapi.yaml 200 application/yaml; mcp server-card 200 JSON; supabase MCP 200;
+  2026-11-12
